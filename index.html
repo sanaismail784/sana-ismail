@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sana Ismail - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      display: flex;
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      width: 250px;
+      background: #1e1e2f;
+      color: white;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sidebar img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    .sidebar h2 {
+      margin-bottom: 10px;
+    }
+
+    .sidebar nav a {
+      color: white;
+      text-decoration: none;
+      margin: 10px 0;
+      display: block;
+    }
+
+    .social-icons a {
+      color: white;
+      margin: 0 5px;
+      font-size: 20px;
+    }
+
+    .main {
+      flex: 1;
+      padding: 30px;
+      background-color: #f5f5f5;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .hero-text {
+      max-width: 50%;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      color: #333;
+    }
+
+    .hero p {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    .hero img {
+      width: 250px;
+      border-radius: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <aside class="sidebar">
+    <img src="profile.jpg" alt="Sana Ismail">
+    <h2>Sana Ismail</h2>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#resume">Resume</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/sana-ismail-18a96835a/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/ads_sage_/"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/adsageagency"><i class="fab fa-facebook"></i></a>
+    </div>
+  </aside>
+
+  <main class="main">
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h1>Hi, I'm Sana Ismail</h1>
+        <p>Digital Marketer | PPC Expert | SMM | SEM | Shopify Developer</p>
+      </div>
+      <img src="profile.jpg" alt="Sana Ismail">
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Motivated professional with a well-rounded background in web development (HTML, CSS, PHP, WordPress)...</p>
+      <!-- Add rest of About content here -->
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <p>Dedicated professional committed to delivering innovative solutions...</p>
+      <!-- Add resume details here -->
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <ul>
+        <li>Digital Marketing</li>
+        <li>PPC Expert</li>
+        <li>SMM & SEM</li>
+        <li>Shopify Web Design</li>
+        <li>WordPress Development</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:imsanamarketer@gmail.com">imsanamarketer@gmail.com</a></p>
+      <p>Phone: <a href="tel:+923134628771">+92 313 4628771</a></p>
+    </section>
+  </main>
+</body>
+
+</html>
